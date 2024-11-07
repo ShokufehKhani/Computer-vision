@@ -86,3 +86,23 @@ Optimize the GUI for better cross-platform compatibility.
 ### **Contributing**
 Contributions are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
+### **Important Note on Dataset**
+
+The images used for training and testing the face recognition model are not included in this repository due to privacy concerns and the lack of permission from individuals to publicly share their images.
+
+To use the system, you will need to provide your own dataset of employee photos. Please follow the instructions below to prepare the dataset:
+
+1. **Prepare Dataset**:
+
+- Create a folder named Employee_Photos with subfolders for each employee.
+- Place each employee’s photos in their respective subfolder for training.
+   ```bash
+   Employee_Photos/
+    Employee_1/
+        photo1.jpg
+        photo2.jpg
+        ...
+    Employee_2/
+        photo1.jpg
+        photo2.jpg
+        ...
