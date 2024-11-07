@@ -99,10 +99,10 @@ To use the system, you will need to provide your own dataset of employee photos.
    ```bash
    Employee_Photos/
     Employee_1/
-        photo1.jpg
-        photo2.jpg
+        1.jpg
+        2.jpg
         ...
     Employee_2/
-        photo1.jpg
-        photo2.jpg
+        1.jpg
+        2.jpg
         ...
