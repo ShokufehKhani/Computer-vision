@@ -47,24 +47,24 @@ This application is a face recognition-based roll call system for employees. The
 - Create a folder named `Employee_Photos` with subfolders for each employee.
 - Place each employee’s photos in their respective subfolder for training.
 
-### ***Model Training***
-1. **Generate Augmented Images:*:
+### **Model Training**
+1. **Generate Augmented Images**:
 - Run the `data_augmentation.py` script to create augmented images for each employee.
 
-```bash
-   python data_augmentation.py
+   ```bash
+      python data_augmentation.py
 
-2. ***Train the SVM Model***:
+2. **Train the SVM Model**:
 - Run `model_training.py` to train the SVM model. The trained model, label encoder, and dimensionality reducer are saved as .joblib files.
 
-```bash
-   python model_training.py
+   ```bash
+      python model_training.py
 
-### ***Running the Application***
+### **Running the Application**
 
 1. **Start the Application:**:
-   ```bash
-   python gui.py
+      ```bash
+      python gui.py
 
 2. **Using the Application**:
 
@@ -72,7 +72,7 @@ This application is a face recognition-based roll call system for employees. The
 - **Register New Employee**: Admins can register new employees through the application, capturing images in various poses for accuracy.
 Example Usage
 
-### ***Example Usage***
+### **Example Usage**
 
 1. ***Employee Identification***: Stand in front of the camera. If recognized, the system logs the entry.
 2. ***New Employee Registration***: Admins can use the interface to register new employees, capturing images for future identification.
