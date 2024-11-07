@@ -74,8 +74,8 @@ Example Usage
 
 ### **Example Usage**
 
-1. ***Employee Identification***: Stand in front of the camera. If recognized, the system logs the entry.
-2. ***New Employee Registration***: Admins can use the interface to register new employees, capturing images for future identification.
+1. **Employee Identification**: Stand in front of the camera. If recognized, the system logs the entry.
+2. **New Employee Registration**: Admins can use the interface to register new employees, capturing images for future identification.
 
 ### **Future Improvements**
 
