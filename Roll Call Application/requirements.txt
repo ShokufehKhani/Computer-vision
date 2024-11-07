@@ -1,0 +1,10 @@
+opencv-python
+numpy
+scikit-image
+scikit-learn
+joblib
+Pillow
+tkinter
+matplotlib
+seaborn
+face-recognition
